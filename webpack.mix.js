@@ -18,7 +18,6 @@ mix.sourceMaps()
             require('rupture')()
         ]
     })
-    .sourceMaps()
     .disableNotifications()
 
 mix.browserSync({

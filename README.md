@@ -1,5 +1,5 @@
 # Laravel Vuebase
-> Integration Vuebase with Laravel
+Integration [Vuebase](https://github.com/nasirouwagana/vuebase) with Laravel 5.6
 
 ## Prerequisites
 - PHP >=7.1.3
@@ -13,7 +13,7 @@
 - git clone git@github.com:nasirouwagana/laravel-vuebase.git project-name
 - cd project-name
 - cp .env.example .env
-- Edit .env and set your database connection details, ``APP_URL``, ``APP_BASE_URL`` ``API_URL`` and more.
+- Edit .env and set your database connection details, ``APP_URL``, ``API_URL``, ``APP_BASE_URL`` and more.
 - composer install
 - php artisan key:generate
 - npm install

@@ -3,16 +3,14 @@ import VueRouter from 'vue-router'
 import Vuetify from 'vuetify'
 import axios from 'axios'
 import lodash from 'lodash'
-import {
-    appName,
-    apiUrl,
-} from './config'
 
 // Global variables
 window.Vue = Vue
 window.axios = axios
 window._ = lodash
-window.appName = appName
+window.appName = process.env.MIX_APP_NAME
+window.appUrl = process.env.MIX_APP_URL
+window.apiUrl = process.env.MIX_API_URL
 
 // Plugins initializations
 Vue.use(VueRouter)

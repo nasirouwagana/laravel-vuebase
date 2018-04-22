@@ -31,7 +31,7 @@ const routes = [
 ]
 
 export default new VueRouter({
-    base: document.querySelector('#app').getAttribute('data-base'),
+    base: document.querySelector('#app').getAttribute('data-base-url'),
     routes,
     mode: 'history',
     scrollBehavior (to, from, savedPosition) {

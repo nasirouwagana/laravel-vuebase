@@ -15,19 +15,7 @@
         <link rel="icon" href="{{ asset('favicon.png') }}" />
     </head>
     <body>
-        <div id="app" data-base="{{ env('APP_BASE_URL') }}"></div>
-
-        @php
-            $config = [
-                'appName' => config('app.name'),
-                'appUrl' => env('APP_URL'),
-                'apiUrl' => env('API_URL')
-            ];
-        @endphp
-
-        <script>
-            window.config = '@json($config)'
-        </script>
+        <div id="app" data-base-url="{{ env('APP_BASE_URL') }}"></div>
 
         <script src="{{ asset(mix('js/app.js')) }}"></script>
     </body>
