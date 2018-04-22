@@ -1,5 +1,5 @@
 # Laravel Vuebase
-Integration [Vuebase](https://github.com/nasirouwagana/vuebase) with Laravel 5.6
+Integration [Vuebase](https://github.com/nasirouwagana/vuebase) with [Laravel 5.6](https://laravel.com/docs/5.6)
 
 ## Prerequisites
 - PHP >=7.1.3
